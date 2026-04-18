@@ -79,6 +79,7 @@ def gun_kill(stats, screen, bg, sc, gun, aliens, bullets):
     # Если жизни закончились
     else:
         stats.run_game = False
+        print('noooo')
 
 def game_over_screen(stats, sc, gun, aliens, bullets, screen):
     """экран окончания игры"""
@@ -87,7 +88,6 @@ def game_over_screen(stats, sc, gun, aliens, bullets, screen):
         game_over.draw()
         if game_over.handle_events(stats, sc, gun, aliens, bullets, screen):
             break
-            print('привет')
 
 def update_aliens(stats, screen, bg, sc, gun, aliens, bullets):
     """обновление позиции пришельцев"""
