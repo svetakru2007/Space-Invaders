@@ -87,7 +87,6 @@ def game_over_screen(stats, sc, gun, aliens, bullets, screen):
         game_over.draw()
         if game_over.handle_events(stats, sc, gun, aliens, bullets, screen):
             break
-            print('hello')
 
 def update_aliens(stats, screen, bg, sc, gun, aliens, bullets):
     """обновление позиции пришельцев"""
