@@ -83,10 +83,11 @@ def gun_kill(stats, screen, bg, sc, gun, aliens, bullets):
 def game_over_screen(stats, sc, gun, aliens, bullets, screen):
     """экран окончания игры"""
     game_over = GameOver(screen)
-
+    # что то там
     while not stats.run_game:
         game_over.draw()
         if game_over.handle_events(stats, sc, gun, aliens, bullets, screen):
+            print('dh')
             break
 
 def update_aliens(stats, screen, bg, sc, gun, aliens, bullets):
