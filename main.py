@@ -18,7 +18,6 @@ def run():
 
     # Создание игровых объектов
     gun = Gun(screen) # пушка
-    heart = Heart(screen) # жизни
     bullets = Group() # группа для хранения пуль
     aliens = Group() # группа для хранения пришельцев
     controls.create_army(screen, aliens) # армия пришельцев
