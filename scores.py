@@ -52,4 +52,3 @@ class Scores():
         self.screen.blit(self.score_img, self.score_rect)
         self.screen.blit(self.high_score_image, self.high_score_rect)
         self.harts.draw(self.screen)
-

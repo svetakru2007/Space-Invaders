@@ -3,7 +3,6 @@ from gun import Gun
 from pygame.sprite import Group
 from stats import Stats
 from scores import Scores
-from heart import Heart
 
 def run():
     """главная функция запуска игры"""
@@ -22,7 +21,7 @@ def run():
     aliens = Group() # группа для хранения пришельцев
     controls.create_army(screen, aliens) # армия пришельцев
 
-    # Инициализайия статистики и счета
+    # Инициализация статистики и счета
     stats = Stats()
     sc = Scores(screen, stats)
 

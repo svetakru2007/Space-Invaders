@@ -5,7 +5,7 @@ from game_over import GameOver
 import time
 
 def events(screen, gun, bullets):
-    """оброботка событий"""
+    """обработка событий"""
     for event in pygame.event.get():
         # Закрытие окна игры
         if event.type == pygame.QUIT:
