@@ -16,3 +16,5 @@ _____________
 ![](https://github.com/svetakru2007/Space-Invaders/blob/901f110eb814261115f57e78f143aee6ba2ce132/screens/game_over.png)
 
 Экрна поражения
+
+[Видео с демонстрацией механики игры](https://github.com/svetakru2007/Space-Invaders/blob/708a91c2179711ccdaf44a1e122331b248e4c13b/video.mp4)
