@@ -12,5 +12,5 @@ class Stats():
 
     def reset_stats(self):
         """статистика, изменяющаяся во время игры"""
-        self.guns_left = 2 # Кол-во жизней
+        self.guns_left = 3 # Кол-во жизней
         self.score = 0 # Счет
