@@ -67,7 +67,7 @@ def update_bullets(screen, stats, sc,  aliens, bullets):
 def gun_kill(stats, screen, bg, sc, gun, aliens, bullets):
     """столкновение пушки и армии пришельцев"""
     # Если жизни остались
-    if stats.guns_left > 0:
+    if stats.guns_left > 1:
         stats.guns_left -= 1
         screen.blit(bg, (0, 0))
         sc.image_harts()
