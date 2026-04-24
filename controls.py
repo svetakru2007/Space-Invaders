@@ -124,7 +124,7 @@ def create_army(screen, aliens):
             alien.y = alien_height + (alien_height * row_number)
             alien.rect.x = alien.x
             alien.rect.y = alien.rect.height + (alien.rect.height * row_number)
-            alien.add(aliens)
+            aliens.add(alien)
 
 def check_high_score(stats, sc):
     """проверка новых рекордов"""
