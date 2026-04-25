@@ -20,11 +20,13 @@ class Alien(pygame.sprite.Sprite):
         self.x = float(self.rect.x)
         self.y = float(self.rect.y)
 
+        self.speed = 0.03 # начальная скорость
+
     def draw(self):
         """вывод пришельца на экран"""
         self.screen.blit(self.image,self.rect)
 
     def update(self):
         """перемещение пришельцев"""
-        self.y += 0.1
+        self.y += self.speed
         self.rect.y  = self.y
