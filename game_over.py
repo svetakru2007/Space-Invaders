@@ -72,10 +72,8 @@ class GameOver:
         stats.reset_stats()
         stats.run_game = True
 
-        # Сброс флагов движения пушки
-        gun.reset_flags()
-
         # Обновление счёта
+        sc.image_level()
         sc.image_score()
         sc.image_harts()
         sc.image_high_score()
@@ -86,7 +84,8 @@ class GameOver:
 
         # Создание новой армии
         from controls import create_army
-        create_army(screen, aliens)
+        create_army(screen, aliens, alien_speed=0.03, shape='rectangle', stats=stats)
 
         # Сброс позиции пушки
         gun.create_gun()
+        gun.reset_flags()
