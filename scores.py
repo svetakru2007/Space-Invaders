@@ -15,6 +15,14 @@ class Scores():
         self.image_score()
         self.image_high_score()
         self.image_harts()
+        self.image_level()
+
+    def image_level(self):
+        """преобразование уровня в графическое изображение"""
+        self.level_img = self.font.render(f"Уровень: {self.stats.level}", True, self.text_color, (0, 0, 0))
+        self.level_rect = self.level_img.get_rect()
+        self.level_rect.left = 40
+        self.level_rect.top = 60
 
     def image_score(self):
         """преобразование текста счета в графическое изображение"""
@@ -52,3 +60,4 @@ class Scores():
         self.screen.blit(self.score_img, self.score_rect)
         self.screen.blit(self.high_score_image, self.high_score_rect)
         self.harts.draw(self.screen)
+        self.screen.blit(self.level_img, self.level_rect)
