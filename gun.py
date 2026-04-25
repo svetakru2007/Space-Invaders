@@ -27,10 +27,10 @@ class Gun():
         """обновление позиции пушки"""
         # Движение вправо с проверкой границ
         if self.mright and self.rect.right < self.screen_rect.right:
-            self.center += 2.5
+            self.center += 2.25
         # Движение влево с проверкой границ
         elif self.mleft and self.rect.left > self.screen_rect.left:
-            self.center -= 2.5
+            self.center -= 2.25
         self.rect.centerx = self.center
 
     def create_gun(self):
