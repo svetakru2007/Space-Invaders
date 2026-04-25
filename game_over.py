@@ -72,6 +72,9 @@ class GameOver:
         stats.reset_stats()
         stats.run_game = True
 
+        # Сброс флагов движения пушки
+        gun.reset_flags()
+
         # Обновление счёта
         sc.image_score()
         sc.image_harts()

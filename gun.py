@@ -36,3 +36,8 @@ class Gun():
     def create_gun(self):
         """размещает пушку внизу по центру"""
         self.center = self.screen_rect.centerx
+
+    def reset_flags(self):
+        """сброс флагов движения (приперезапуске)"""
+        self.mright = False
+        self.mleft = False
