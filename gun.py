@@ -38,6 +38,6 @@ class Gun():
         self.center = self.screen_rect.centerx
 
     def reset_flags(self):
-        """сброс флагов движения (приперезапуске)"""
+        """сброс флагов движения (при перезапуске)"""
         self.mright = False
         self.mleft = False
