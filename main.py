@@ -15,19 +15,19 @@ def run():
     bg_color = (0, 0, 0)
     bg = pygame.image.load('images/bgg.jpg')
 
-    # Создание игровых объектов
-    gun = Gun(screen) # пушка
-    bullets = Group() # группа для хранения пуль
-    aliens = Group() # группа для хранения пришельцев
-    controls.create_army(screen, aliens) # армия пришельцев
-
     # Инициализация статистики и счета
     stats = Stats()
     sc = Scores(screen, stats)
 
+    # Создание игровых объектов
+    gun = Gun(screen) # пушка
+    bullets = Group() # группа для хранения пуль
+    aliens = Group() # группа для хранения пришельцев
+    controls.create_army(screen, aliens, alien_speed=0.03, stats=stats)  # армия пришельцев
+
     # Главный игровой цикл
     while True:
-        controls.events(screen, gun, bullets) # Обработка событий
+        controls.events(screen, gun, bullets) # обработка событий
 
         # Проверка: активна ли игра
         if stats.run_game:
