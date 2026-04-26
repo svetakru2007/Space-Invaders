@@ -8,8 +8,8 @@ _____________
 _____________
 **Ваша задача** — уничтожить как можно больше пришельцев👾: каждый сбитый враг приносит очки. Если не удалось отразить атаку, и инопланетяне задели пушку или добрались до края, не расстраивайтесь — у корабля целых три жизни. Сражайтесь с противниками, ставьте рекорды и получайте удовольствие от игры!
 _____________
-![](https://github.com/svetakru2007/Space-Invaders/blob/8e2148843f36b540a039a4276a9dc966d4e05412/screens/start_3.png)
-![](https://github.com/svetakru2007/Space-Invaders/blob/711a10c4836ecf343ca449c5db6b45dde1c390d8/screens/play.png)
+![](https://github.com/svetakru2007/Space-Invaders/blob/26fff86ace1bd2bd9ffc2f1cf7badb86b906b12a/screens/start_5.png)
+![](https://github.com/svetakru2007/Space-Invaders/blob/26fff86ace1bd2bd9ffc2f1cf7badb86b906b12a/screens/play_2.png)
 
 Скриншот геймплея
 _____________
@@ -17,4 +17,4 @@ _____________
 
 Экрна поражения
 
-[Видео с демонстрацией механики игры](https://github.com/svetakru2007/Space-Invaders/blob/708a91c2179711ccdaf44a1e122331b248e4c13b/video.mp4)
+[Видео с демонстрацией механики игры](https://github.com/svetakru2007/Space-Invaders/blob/b9362c6780117ac7051521bb74fe84bd9313d2c7/video.mp4)
