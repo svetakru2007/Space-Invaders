@@ -32,9 +32,9 @@ def events(screen, gun, bullets):
 
         # Оработка отпускания клавиш
         elif event.type == pygame.KEYUP:
-            if event.key == pygame.K_RIGHT or event.key == pygame.K_d: # Вправо
+            if event.key == pygame.K_RIGHT or event.key == pygame.K_d: # вправо
                 gun.mright = False
-            elif event.key == pygame.K_LEFT or event.key == pygame.K_a: # Влево
+            elif event.key == pygame.K_LEFT or event.key == pygame.K_a: # влево
                 gun.mleft = False
 
 def update(bg_color, screen, stats, sc, gun, aliens, bullets):
